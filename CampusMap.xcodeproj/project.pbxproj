@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		850FFA621CC6513F000B71AF /* ZXEDUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850FFA611CC6513F000B71AF /* ZXEDUViewController.m */; };
+		850FFA651CC65F99000B71AF /* AnnotationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 850FFA641CC65F99000B71AF /* AnnotationModel.m */; };
+		851FE7361CBE754B0009206A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 851FE7351CBE754B0009206A /* main.m */; };
+		851FE7391CBE754B0009206A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 851FE7381CBE754B0009206A /* AppDelegate.m */; };
+		851FE73C1CBE754B0009206A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851FE73B1CBE754B0009206A /* ViewController.m */; };
+		851FE73F1CBE754B0009206A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851FE73D1CBE754B0009206A /* Main.storyboard */; };
+		851FE7411CBE754B0009206A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851FE7401CBE754B0009206A /* Assets.xcassets */; };
+		851FE7441CBE754B0009206A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851FE7421CBE754B0009206A /* LaunchScreen.storyboard */; };
+		851FE74F1CBE754B0009206A /* CampusMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 851FE74E1CBE754B0009206A /* CampusMapTests.m */; };
+		851FE75A1CBE754C0009206A /* CampusMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 851FE7591CBE754C0009206A /* CampusMapUITests.m */; };
+		851FE76E1CBE7AC80009206A /* ZXMainMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851FE76D1CBE7AC80009206A /* ZXMainMapViewController.m */; };
+		85A90D981CBFB176002BF2BE /* MapStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A90D971CBFB176002BF2BE /* MapStoryboard.storyboard */; };
+		85A90D9C1CBFC4D9002BF2BE /* CompusNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A90D9B1CBFC4D9002BF2BE /* CompusNaviViewController.m */; };
+		85AB54D41CC9010A00D17BCA /* TYCircleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AB54C91CC9010A00D17BCA /* TYCircleCell.m */; };
+		85AB54D51CC9010A00D17BCA /* TYCircleCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AB54CB1CC9010A00D17BCA /* TYCircleCollectionView.m */; };
+		85AB54D61CC9010A00D17BCA /* TYCircleCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AB54CD1CC9010A00D17BCA /* TYCircleCollectionViewLayout.m */; };
+		85AB54D71CC9010A00D17BCA /* TYCircleMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AB54D01CC9010A00D17BCA /* TYCircleMenu.m */; };
+		85AB54D81CC9010A00D17BCA /* TYCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AB54D31CC9010A00D17BCA /* TYCircleView.m */; };
+		85B005C61CCE3850006EC4B6 /* LrdOutputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B005C51CCE3850006EC4B6 /* LrdOutputView.m */; };
+		85C364861CD19D9600AE0EA7 /* UIView+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C364851CD19D9600AE0EA7 /* UIView+HUD.m */; };
+		8ED2AC9DDC45149548C31164 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F19A3984CCD58205FF7602D0 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		851FE74B1CBE754B0009206A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 851FE7291CBE754B0009206A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 851FE7301CBE754B0009206A;
+			remoteInfo = CampusMap;
+		};
+		851FE7561CBE754B0009206A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 851FE7291CBE754B0009206A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 851FE7301CBE754B0009206A;
+			remoteInfo = CampusMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CD680C1A07C88CDBC8F5A03 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		850FFA601CC6513F000B71AF /* ZXEDUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXEDUViewController.h; sourceTree = "<group>"; };
+		850FFA611CC6513F000B71AF /* ZXEDUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXEDUViewController.m; sourceTree = "<group>"; };
+		850FFA631CC65F99000B71AF /* AnnotationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationModel.h; sourceTree = "<group>"; };
+		850FFA641CC65F99000B71AF /* AnnotationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationModel.m; sourceTree = "<group>"; };
+		851FE7311CBE754B0009206A /* CampusMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampusMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		851FE7351CBE754B0009206A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		851FE7371CBE754B0009206A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		851FE7381CBE754B0009206A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		851FE73A1CBE754B0009206A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		851FE73B1CBE754B0009206A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		851FE73E1CBE754B0009206A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		851FE7401CBE754B0009206A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		851FE7431CBE754B0009206A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		851FE7451CBE754B0009206A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		851FE74A1CBE754B0009206A /* CampusMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampusMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		851FE74E1CBE754B0009206A /* CampusMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CampusMapTests.m; sourceTree = "<group>"; };
+		851FE7501CBE754B0009206A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		851FE7551CBE754B0009206A /* CampusMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampusMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		851FE7591CBE754C0009206A /* CampusMapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CampusMapUITests.m; sourceTree = "<group>"; };
+		851FE75B1CBE754C0009206A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		851FE76C1CBE7AC80009206A /* ZXMainMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXMainMapViewController.h; sourceTree = "<group>"; };
+		851FE76D1CBE7AC80009206A /* ZXMainMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXMainMapViewController.m; sourceTree = "<group>"; };
+		85A90D971CBFB176002BF2BE /* MapStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MapStoryboard.storyboard; sourceTree = "<group>"; };
+		85A90D991CBFB3FD002BF2BE /* Map.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Map.pch; sourceTree = "<group>"; };
+		85A90D9A1CBFC4D9002BF2BE /* CompusNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompusNaviViewController.h; sourceTree = "<group>"; };
+		85A90D9B1CBFC4D9002BF2BE /* CompusNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompusNaviViewController.m; sourceTree = "<group>"; };
+		85AB54C81CC9010A00D17BCA /* TYCircleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCircleCell.h; sourceTree = "<group>"; };
+		85AB54C91CC9010A00D17BCA /* TYCircleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCircleCell.m; sourceTree = "<group>"; };
+		85AB54CA1CC9010A00D17BCA /* TYCircleCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCircleCollectionView.h; sourceTree = "<group>"; };
+		85AB54CB1CC9010A00D17BCA /* TYCircleCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCircleCollectionView.m; sourceTree = "<group>"; };
+		85AB54CC1CC9010A00D17BCA /* TYCircleCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCircleCollectionViewLayout.h; sourceTree = "<group>"; };
+		85AB54CD1CC9010A00D17BCA /* TYCircleCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCircleCollectionViewLayout.m; sourceTree = "<group>"; };
+		85AB54CE1CC9010A00D17BCA /* TYCircleMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCircleMacros.h; sourceTree = "<group>"; };
+		85AB54CF1CC9010A00D17BCA /* TYCircleMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCircleMenu.h; sourceTree = "<group>"; };
+		85AB54D01CC9010A00D17BCA /* TYCircleMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCircleMenu.m; sourceTree = "<group>"; };
+		85AB54D11CC9010A00D17BCA /* TYCircleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCircleProtocol.h; sourceTree = "<group>"; };
+		85AB54D21CC9010A00D17BCA /* TYCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCircleView.h; sourceTree = "<group>"; };
+		85AB54D31CC9010A00D17BCA /* TYCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCircleView.m; sourceTree = "<group>"; };
+		85B005C41CCE3850006EC4B6 /* LrdOutputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LrdOutputView.h; sourceTree = "<group>"; };
+		85B005C51CCE3850006EC4B6 /* LrdOutputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LrdOutputView.m; sourceTree = "<group>"; };
+		85C029631CCB56DA00EBDF88 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		85C364841CD19D9600AE0EA7 /* UIView+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HUD.h"; sourceTree = "<group>"; };
+		85C364851CD19D9600AE0EA7 /* UIView+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HUD.m"; sourceTree = "<group>"; };
+		8F85D07B1CC1A9D390352E0C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F19A3984CCD58205FF7602D0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		851FE72E1CBE754B0009206A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED2AC9DDC45149548C31164 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851FE7471CBE754B0009206A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851FE7521CBE754B0009206A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C1EA9CE44A88C51D318B82E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85C029631CCB56DA00EBDF88 /* MapKit.framework */,
+				F19A3984CCD58205FF7602D0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AA4F9235309FF6174889078 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F85D07B1CC1A9D390352E0C /* Pods.debug.xcconfig */,
+				5CD680C1A07C88CDBC8F5A03 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		851FE7281CBE754B0009206A = {
+			isa = PBXGroup;
+			children = (
+				851FE7331CBE754B0009206A /* CampusMap */,
+				851FE74D1CBE754B0009206A /* CampusMapTests */,
+				851FE7581CBE754C0009206A /* CampusMapUITests */,
+				851FE7321CBE754B0009206A /* Products */,
+				4AA4F9235309FF6174889078 /* Pods */,
+				3C1EA9CE44A88C51D318B82E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		851FE7321CBE754B0009206A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				851FE7311CBE754B0009206A /* CampusMap.app */,
+				851FE74A1CBE754B0009206A /* CampusMapTests.xctest */,
+				851FE7551CBE754B0009206A /* CampusMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		851FE7331CBE754B0009206A /* CampusMap */ = {
+			isa = PBXGroup;
+			children = (
+				85C364831CD19CAB00AE0EA7 /* Category */,
+				851FE7671CBE779A0009206A /* Controllers */,
+				851FE7681CBE779A0009206A /* Models */,
+				851FE7691CBE779A0009206A /* Other */,
+				851FE76A1CBE779A0009206A /* Tools */,
+				851FE76B1CBE779A0009206A /* Views */,
+				851FE73A1CBE754B0009206A /* ViewController.h */,
+				851FE73B1CBE754B0009206A /* ViewController.m */,
+				851FE73D1CBE754B0009206A /* Main.storyboard */,
+				851FE7341CBE754B0009206A /* Supporting Files */,
+				85A90D991CBFB3FD002BF2BE /* Map.pch */,
+			);
+			path = CampusMap;
+			sourceTree = "<group>";
+		};
+		851FE7341CBE754B0009206A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				851FE7401CBE754B0009206A /* Assets.xcassets */,
+				851FE7421CBE754B0009206A /* LaunchScreen.storyboard */,
+				851FE7451CBE754B0009206A /* Info.plist */,
+				851FE7351CBE754B0009206A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		851FE74D1CBE754B0009206A /* CampusMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				851FE74E1CBE754B0009206A /* CampusMapTests.m */,
+				851FE7501CBE754B0009206A /* Info.plist */,
+			);
+			path = CampusMapTests;
+			sourceTree = "<group>";
+		};
+		851FE7581CBE754C0009206A /* CampusMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				851FE7591CBE754C0009206A /* CampusMapUITests.m */,
+				851FE75B1CBE754C0009206A /* Info.plist */,
+			);
+			path = CampusMapUITests;
+			sourceTree = "<group>";
+		};
+		851FE7671CBE779A0009206A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				851FE76C1CBE7AC80009206A /* ZXMainMapViewController.h */,
+				851FE76D1CBE7AC80009206A /* ZXMainMapViewController.m */,
+				85A90D971CBFB176002BF2BE /* MapStoryboard.storyboard */,
+				85A90D9A1CBFC4D9002BF2BE /* CompusNaviViewController.h */,
+				85A90D9B1CBFC4D9002BF2BE /* CompusNaviViewController.m */,
+				850FFA601CC6513F000B71AF /* ZXEDUViewController.h */,
+				850FFA611CC6513F000B71AF /* ZXEDUViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		851FE7681CBE779A0009206A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				850FFA631CC65F99000B71AF /* AnnotationModel.h */,
+				850FFA641CC65F99000B71AF /* AnnotationModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		851FE7691CBE779A0009206A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				851FE7371CBE754B0009206A /* AppDelegate.h */,
+				851FE7381CBE754B0009206A /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		851FE76A1CBE779A0009206A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				85B005C31CCE3850006EC4B6 /* LrdOutputView */,
+				85AB54C71CC9010A00D17BCA /* TYCircle */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		851FE76B1CBE779A0009206A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		85AB54C71CC9010A00D17BCA /* TYCircle */ = {
+			isa = PBXGroup;
+			children = (
+				85AB54C81CC9010A00D17BCA /* TYCircleCell.h */,
+				85AB54C91CC9010A00D17BCA /* TYCircleCell.m */,
+				85AB54CA1CC9010A00D17BCA /* TYCircleCollectionView.h */,
+				85AB54CB1CC9010A00D17BCA /* TYCircleCollectionView.m */,
+				85AB54CC1CC9010A00D17BCA /* TYCircleCollectionViewLayout.h */,
+				85AB54CD1CC9010A00D17BCA /* TYCircleCollectionViewLayout.m */,
+				85AB54CE1CC9010A00D17BCA /* TYCircleMacros.h */,
+				85AB54CF1CC9010A00D17BCA /* TYCircleMenu.h */,
+				85AB54D01CC9010A00D17BCA /* TYCircleMenu.m */,
+				85AB54D11CC9010A00D17BCA /* TYCircleProtocol.h */,
+				85AB54D21CC9010A00D17BCA /* TYCircleView.h */,
+				85AB54D31CC9010A00D17BCA /* TYCircleView.m */,
+			);
+			path = TYCircle;
+			sourceTree = "<group>";
+		};
+		85B005C31CCE3850006EC4B6 /* LrdOutputView */ = {
+			isa = PBXGroup;
+			children = (
+				85B005C41CCE3850006EC4B6 /* LrdOutputView.h */,
+				85B005C51CCE3850006EC4B6 /* LrdOutputView.m */,
+			);
+			path = LrdOutputView;
+			sourceTree = "<group>";
+		};
+		85C364831CD19CAB00AE0EA7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				85C364841CD19D9600AE0EA7 /* UIView+HUD.h */,
+				85C364851CD19D9600AE0EA7 /* UIView+HUD.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		851FE7301CBE754B0009206A /* CampusMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851FE75E1CBE754C0009206A /* Build configuration list for PBXNativeTarget "CampusMap" */;
+			buildPhases = (
+				290691D5B8729C16043DDDB6 /* Check Pods Manifest.lock */,
+				851FE72D1CBE754B0009206A /* Sources */,
+				851FE72E1CBE754B0009206A /* Frameworks */,
+				851FE72F1CBE754B0009206A /* Resources */,
+				18E94B21532E0E76C1035BA3 /* Embed Pods Frameworks */,
+				6C5477A881E137CE8E70DA1C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CampusMap;
+			productName = CampusMap;
+			productReference = 851FE7311CBE754B0009206A /* CampusMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		851FE7491CBE754B0009206A /* CampusMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851FE7611CBE754C0009206A /* Build configuration list for PBXNativeTarget "CampusMapTests" */;
+			buildPhases = (
+				851FE7461CBE754B0009206A /* Sources */,
+				851FE7471CBE754B0009206A /* Frameworks */,
+				851FE7481CBE754B0009206A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				851FE74C1CBE754B0009206A /* PBXTargetDependency */,
+			);
+			name = CampusMapTests;
+			productName = CampusMapTests;
+			productReference = 851FE74A1CBE754B0009206A /* CampusMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		851FE7541CBE754B0009206A /* CampusMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851FE7641CBE754C0009206A /* Build configuration list for PBXNativeTarget "CampusMapUITests" */;
+			buildPhases = (
+				851FE7511CBE754B0009206A /* Sources */,
+				851FE7521CBE754B0009206A /* Frameworks */,
+				851FE7531CBE754B0009206A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				851FE7571CBE754B0009206A /* PBXTargetDependency */,
+			);
+			name = CampusMapUITests;
+			productName = CampusMapUITests;
+			productReference = 851FE7551CBE754B0009206A /* CampusMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		851FE7291CBE754B0009206A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Tarena;
+				TargetAttributes = {
+					851FE7301CBE754B0009206A = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = V9U62K5KE8;
+					};
+					851FE7491CBE754B0009206A = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 851FE7301CBE754B0009206A;
+					};
+					851FE7541CBE754B0009206A = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 851FE7301CBE754B0009206A;
+					};
+				};
+			};
+			buildConfigurationList = 851FE72C1CBE754B0009206A /* Build configuration list for PBXProject "CampusMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 851FE7281CBE754B0009206A;
+			productRefGroup = 851FE7321CBE754B0009206A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				851FE7301CBE754B0009206A /* CampusMap */,
+				851FE7491CBE754B0009206A /* CampusMapTests */,
+				851FE7541CBE754B0009206A /* CampusMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		851FE72F1CBE754B0009206A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851FE7441CBE754B0009206A /* LaunchScreen.storyboard in Resources */,
+				851FE7411CBE754B0009206A /* Assets.xcassets in Resources */,
+				85A90D981CBFB176002BF2BE /* MapStoryboard.storyboard in Resources */,
+				851FE73F1CBE754B0009206A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851FE7481CBE754B0009206A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851FE7531CBE754B0009206A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18E94B21532E0E76C1035BA3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		290691D5B8729C16043DDDB6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C5477A881E137CE8E70DA1C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		851FE72D1CBE754B0009206A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C364861CD19D9600AE0EA7 /* UIView+HUD.m in Sources */,
+				85AB54D41CC9010A00D17BCA /* TYCircleCell.m in Sources */,
+				85AB54D51CC9010A00D17BCA /* TYCircleCollectionView.m in Sources */,
+				85B005C61CCE3850006EC4B6 /* LrdOutputView.m in Sources */,
+				851FE76E1CBE7AC80009206A /* ZXMainMapViewController.m in Sources */,
+				850FFA621CC6513F000B71AF /* ZXEDUViewController.m in Sources */,
+				85AB54D71CC9010A00D17BCA /* TYCircleMenu.m in Sources */,
+				851FE73C1CBE754B0009206A /* ViewController.m in Sources */,
+				851FE7391CBE754B0009206A /* AppDelegate.m in Sources */,
+				85AB54D81CC9010A00D17BCA /* TYCircleView.m in Sources */,
+				85A90D9C1CBFC4D9002BF2BE /* CompusNaviViewController.m in Sources */,
+				851FE7361CBE754B0009206A /* main.m in Sources */,
+				850FFA651CC65F99000B71AF /* AnnotationModel.m in Sources */,
+				85AB54D61CC9010A00D17BCA /* TYCircleCollectionViewLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851FE7461CBE754B0009206A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851FE74F1CBE754B0009206A /* CampusMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851FE7511CBE754B0009206A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851FE75A1CBE754C0009206A /* CampusMapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		851FE74C1CBE754B0009206A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 851FE7301CBE754B0009206A /* CampusMap */;
+			targetProxy = 851FE74B1CBE754B0009206A /* PBXContainerItemProxy */;
+		};
+		851FE7571CBE754B0009206A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 851FE7301CBE754B0009206A /* CampusMap */;
+			targetProxy = 851FE7561CBE754B0009206A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		851FE73D1CBE754B0009206A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				851FE73E1CBE754B0009206A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		851FE7421CBE754B0009206A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				851FE7431CBE754B0009206A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		851FE75C1CBE754C0009206A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		851FE75D1CBE754C0009206A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		851FE75F1CBE754C0009206A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F85D07B1CC1A9D390352E0C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CampusMap/Map.pch;
+				INFOPLIST_FILE = CampusMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.ZXMCampusMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "685f1e6d-59d8-4595-b3d8-5e91dad07e54";
+			};
+			name = Debug;
+		};
+		851FE7601CBE754C0009206A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD680C1A07C88CDBC8F5A03 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CampusMap/Map.pch;
+				INFOPLIST_FILE = CampusMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.ZXMCampusMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "685f1e6d-59d8-4595-b3d8-5e91dad07e54";
+			};
+			name = Release;
+		};
+		851FE7621CBE754C0009206A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CampusMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.CampusMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CampusMap.app/CampusMap";
+			};
+			name = Debug;
+		};
+		851FE7631CBE754C0009206A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CampusMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.CampusMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CampusMap.app/CampusMap";
+			};
+			name = Release;
+		};
+		851FE7651CBE754C0009206A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CampusMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.CampusMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CampusMap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		851FE7661CBE754C0009206A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CampusMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.CampusMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CampusMap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		851FE72C1CBE754B0009206A /* Build configuration list for PBXProject "CampusMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851FE75C1CBE754C0009206A /* Debug */,
+				851FE75D1CBE754C0009206A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		851FE75E1CBE754C0009206A /* Build configuration list for PBXNativeTarget "CampusMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851FE75F1CBE754C0009206A /* Debug */,
+				851FE7601CBE754C0009206A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		851FE7611CBE754C0009206A /* Build configuration list for PBXNativeTarget "CampusMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851FE7621CBE754C0009206A /* Debug */,
+				851FE7631CBE754C0009206A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		851FE7641CBE754C0009206A /* Build configuration list for PBXNativeTarget "CampusMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851FE7651CBE754C0009206A /* Debug */,
+				851FE7661CBE754C0009206A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 851FE7291CBE754B0009206A /* Project object */;
+}

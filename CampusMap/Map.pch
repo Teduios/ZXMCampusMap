@@ -1,0 +1,21 @@
+//
+//  Map.pch
+//  CampusMap
+//
+//  Created by Tarena on 16/4/14.
+//  Copyright © 2016年 Tarena. All rights reserved.
+//
+
+#ifndef Map_pch
+#define Map_pch
+
+#define APIKEY @"2c3e0455c1f51f5e6c86d9fa0fbfaea0"
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Map_pch */
